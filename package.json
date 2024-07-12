@@ -1,7 +1,7 @@
 {
   "name": "week2",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "./src/index.html",
   "scripts": {
     "deploy": "gh-pages -d src",
     "test": "echo \"Error: no test specified\" && exit 1"
