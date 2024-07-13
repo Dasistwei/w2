@@ -14,9 +14,15 @@ img {
   margin: 0 auto;
 }
 
-.header {
+.header, .banner, .footer {
   background: #000000;
+}
+
+li a, .banner, .contact, .intro, .footer {
   color: white;
+}
+
+.header {
   font-size: 16px;
   padding: 52px 0;
 }
@@ -26,8 +32,6 @@ img {
   align-items: center;
 }
 .header ul li a {
-  background: #000000;
-  color: white;
   font-size: 16px;
   text-decoration: none;
 }
@@ -39,8 +43,6 @@ img {
 .banner {
   padding-top: 72px;
   padding-bottom: 32px;
-  background: #000000;
-  color: white;
 }
 .banner .container {
   display: flex;
@@ -85,7 +87,6 @@ img {
 
 .intro {
   background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
-  color: white;
   padding: 160px 0;
 }
 .intro .container {
@@ -192,7 +193,6 @@ img {
 
 .contact {
   background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
-  color: white;
   padding: 96px 0;
   font-size: 64px;
 }
@@ -319,8 +319,6 @@ img {
 }
 
 .footer {
-  background: #000000;
-  color: white;
   text-align: center;
   padding: 40px 0;
 }/*# sourceMappingURL=all.css.map */
